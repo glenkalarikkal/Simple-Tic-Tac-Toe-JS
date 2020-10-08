@@ -1,0 +1,75 @@
+body {
+    background: #323532;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+td {
+    border: 3px solid #535B37;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #D8E3A7;
+}
+
+p, #restart, td {
+    font-family: 'Concert One', cursive;
+}
+
+#o {
+    color: red;
+}
+
+#x {
+    color: blue;
+}
+
+#status, #restart {
+    margin-top: 1%;
+}
+
+#status {
+    color: #9AD06A;
+    font-size: 2em;
+}
+
+#credit {
+    background: black;
+    margin-top: 3em;
+    padding: 0.75em;
+    color: white;
+}
+
+a, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9AD06A;
+}
+
+#restart {
+    border: none;
+    background-color: white;
+    text-shadow: 1px 1px gray;
+    padding: 0.75em;
+    border-radius: 3px;
+}
+
+#restart:hover {
+    background-color: lightgray;
+}
